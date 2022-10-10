@@ -34,10 +34,17 @@
 
 html,
 body {
+    margin: 0 auto;
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
     color: #999
+}
+
+.icon{
+    height: 50px;
+    width: auto;
+    margin: 10px;
 }
 
 .no-padding {
@@ -1179,3 +1186,8 @@ textarea:focus {
     }
 }
 
+.card{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
